@@ -1,0 +1,62 @@
+{% load static %}
+{% load staticfiles %}
+{% include 'css.html' %}
+<header id="greenesto-header">
+    <div id="header-part1" class="container-fluid">
+        <div class="row">
+            <div id="social" class="col-sm-3 col-xs-12">
+                <a class="facebookBtn smGlobalBtn" href="#"></a>
+                <a class="twitterBtn smGlobalBtn" href="#"></a>
+                <a class="googleplusBtn smGlobalBtn" href="#"></a>
+                <a class="linkedinBtn smGlobalBtn" href="#"></a>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="row" id="headerpart1-list">
+                    <div class="col-sm-4 col-xs-3"><a href="#"><span class="fa fa-phone"></span>+91-8510010565</a></div>
+                    <div class="col-sm-2 col-xs-2"><a href="{% url 'index' %}">Home</a></div>
+                    <div class="col-sm-2 col-xs-2"><a href="{% url 'about' %}">About</a></div>
+                    <div class="col-sm-2 col-xs-2"><a href="{% url 'contact' %}">Contact</a></div>
+                    <div class="col-sm-2 col-xs-3"><a>Sign in</a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-part2" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-xs-12">
+                <a><img class="img-responsive" src="{% static 'images/website combine logo.jpg' %}"></a>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6 col-xs-10">
+                <div class="input-group">
+                    <a class="btn btn-default pull-left">All <span class="fa fa-caret-down"></span></a>
+                    <input type="text" class="form-control" aria-label="Enter the product">
+                    <a class="btn btn-default"><span class="fa fa-search"></span></a>
+                </div>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+                <a href="#"><img class="shopping-cart" src="{% static 'images/main_page/cart.png' %}"></a>
+            </div>
+        </div>
+    </div>
+    <div id="header-part3" class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header3list">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="header3list">
+            <ul class="nav navbar-nav">
+                <li><a href="#">PANELS</a></li>
+                <li><a href="#">INVERTERS</a></li>
+                <li><a href="#">BATTERIES</a></li>
+                <li><a href="#">PERIPHERALS</a></li>
+                <li><a href="#">SOLAR GADGETS</a></li>
+                <li><a href="#">EPC</a></li>
+                <li><a href="#">EXTRAS</a></li>
+            </ul>
+        </div>
+    </div>
+</header>

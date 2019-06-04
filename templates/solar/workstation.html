@@ -1,0 +1,133 @@
+{% load static %}
+{% load staticfiles %}
+{% include 'header.html' %}
+
+<div class="container-fluid header-part4">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header4list">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="header4list">
+        <ul class="nav navbar-nav">
+            <li><a>Panels</a></li>
+            <li><a>Inverters</a></li>
+            <li><a>Batteries</a></li>
+            <li><a>Peripherals</a></li>
+            <li><a>Solar Gadgets</a></li>
+            <li><a>EPC</a></li>
+            <li><a>Extras</a></li>
+        </ul>
+    </div>
+</div>
+
+<style type="text/css">
+
+
+</style>
+<script type="text/javascript">
+
+    function toggle() {
+
+        /*
+         //document.getElementById("ongrid").style.visibility = "visible";
+         //document.getElementById("offgrid").style.visibility = "hidden";
+         if(document.getElementById("ongrid").style.visibility == "hidden" ) {
+         document.getElementById("ongrid").style.visibility = "visible";
+         document.getElementById("offgrid").style.visibility = "hidden";
+         }
+         else {
+         document.getElementById("ongrid").style.visibility = "hidden";
+         document.getElementById("offgrid").style.visibility = "visible";
+         }
+         }*/
+
+
+        var div1 = document.getElementById('ongrid');
+        if (div1.style.display !== "none") {
+            div1.style.display = "none";
+        }
+        else {
+            div1.style.display = "block";
+        }
+    }
+    function offgrid() {
+
+        var div1 = document.getElementById('offgrid');
+        if (div1.style.display !== "none") {
+            div1.style.display = "none";
+        }
+        else {
+            div1.style.display = "block";
+        }
+    }
+</script>
+<!-- ongrid and offgrid buttons  -->
+<div id="toggle button">
+    <button class="btn btn-primary" onclick="toggle()">ON GRID</button>
+    <button class="btn btn-primary" onclick="toggle()">OFF GRID</button>
+</div>
+
+<!--     HUT IMAGE    -->
+<div class="container-fluid">
+    <div class="col-sm-8 col-sm-offset-2">
+        <img id="workstation-home-image" class="img-responsive" src="{% static 'images/solar/demo_home.png' %}">
+    </div>
+</div>
+
+<!-- HUT IMAGE ENDS    -->
+
+
+<!-- Virtual Cards start here -->
+<div class="container-fluid">
+    <!-- On grid virtual cards -->
+    <div id="ongrid" class="row">
+        <div id="box" class="col-sm-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+        <div id="box" class="col-sm-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+        <div id="box" class="col-sm-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+        <div id="box" class="col-sm-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+    </div>
+    <!--on grid ends -->
+
+    <!-- off grid starts -->
+    <div id="offgrid" class="row">
+        <div id="box" class="col-sm-4">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+        <div id="box" class="col-sm-4">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+        <div id="box" class="col-sm-4">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select">chose</button>
+        </div>
+    </div>
+
+    <!-- Pop over Modal -->
+    <div class="modal fade" id="select" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-headers">
+                    <button type="button" class="close" data-dismiss="modal">
+				        		<span>
+				        			&times;
+				        		</span>
+                    </button>
+                    <div class="modal-title">
+                        chose model
+                    </div>
+                    <div class="modal-body">
+                        select item
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

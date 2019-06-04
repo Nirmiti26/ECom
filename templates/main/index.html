@@ -1,0 +1,280 @@
+{% load static %}
+{% load staticfiles %}
+{% include 'header.html' %}
+
+<script language="javascript" type="text/javascript" src="{% static 'js/myscript.js' %}"></script>
+<script language="javascript" type="text/javascript" src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+<script language="javascript" type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<div class="container-fluid" style="margin-top: 0px;">
+
+    <!-- Carousel div start here -->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-responsive"
+                        src="{% static 'images/banner-1.jpg'%}" alt="img1">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive"
+                        src="{% static 'images/banner-2.jpg'%}" alt="img2">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive"
+                        src="{% static 'images/banner-1.jpg'%}" alt="img3">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive"
+                        src="{% static 'images/banner-2.jpg'%}" alt="img4">
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel div end here -->
+
+    <!-- Services div start here -->
+
+    <div class="row">
+        <a href="/about.html">
+            <div class="col-sm-3 col-xs-6" style="background-color: #FFF; height: 300px;">
+                <div class="service-image">
+                    <a href="#"><img class="img-responsive" src="{% static 'images/main_page/solar.png' %}"></a>
+                </div>
+                <div class="service-topic">
+                    <p>Solar</p>
+                </div>
+                <div class="service-description">
+                    <p>lorem ipsum dolor mega heol assf remo tolig</p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-sm-3 col-xs-6" style="background-color: #FFF; height: 300px;">
+                <div class="service-image">
+                    <a href="#"><img class="img-responsive" src="{% static 'images/main_page/green_plantation.png' %}"></a>
+                </div>
+                <div class="service-topic">
+                    <p>Urban Plantation</p>
+                </div>
+                <div class="service-description">
+                    <p>lorem ipsum dolor mega heol assf remo tolig</p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-sm-3 col-xs-6" style="background-color: #FFF; height: 300px;">
+                <div class="service-image">
+                    <a href="#"><img class="img-responsive" src="{% static 'images/main_page/home_automation.png' %}"></a>
+                </div>
+                <div class="service-topic">
+                    <p>Home Automation</p>
+                </div>
+                <div class="service-description">
+                    <p>lorem ipsum dolor mega heol assf remo tolig</p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-sm-3 col-xs-6" style="background-color: #FFF; height: 300px;">
+                <div class="service-image">
+                    <a href="#"><img class="img-responsive" src="{% static 'images/main_page/community.png' %}"></a>
+                </div>
+                <div class="service-topic">
+                    <p>Green Community</p>
+                </div>
+                <div class="service-description">
+                    <p>lorem ipsum dolor mega heol assf remo tolig</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Services div end here -->
+
+    <!-- Infographic div start here -->
+    <div id="infographic" class="row">
+        <img src="{% static 'images/main_page/community_branch.png' %}" height="100%" width="60%" class="img-responsive">
+    </div>
+    <!-- Infographic div end here -->
+
+    <!-- Testimonials div start here -->
+    <div id="testimonial" class="row">
+
+        <p style="margin: 0 0 0px !important;padding-top:55px;text-align: center; font-size: 35px; font-family: 'Slabo 27px';">Testimonials</p>
+        <p style="margin-bottom:25px;text-align: center; font-size: 15px; font-family: 'Slabo 27px';font-style: italic">Listed below our awesome vets and testimonials and clients!</p>
+        <div class="col-xs-12">
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="author-quote">
+                            <blockquote>Let us Turn to the Sun to power our future</blockquote>
+                        </div>
+                        <div class="author-image">
+                            <img src="{% static 'images/main_page/modi.jpg' %}" class="img-responsive img-circle">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="author-quote">
+                            <blockquote>All energy is ultimately derived for the sun and harvesting it directly through solar power seems to be the best way to transition to renewable energy.</blockquote>
+                        </div>
+                        <div class="author-image">
+                            <img src="{% static 'images/main_page/peter_rive.jpg' %}" class="img-responsive img-circle">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="author-quote">
+                            <blockquote>We are like tenant farmers chopping down the fence around our house for fuel when we should be using Nature’s inexhaustible sources of energy — sun, wind and tide…. I’d put my money on the sun and solar energy. What a source of power! I hope we don’t have to wait until oil and coal run out before we tackle that.</blockquote>
+                        </div>
+                        <div class="author-image">
+                            <img src="{% static 'images/main_page/thomas_edison.jpg' %}" class="img-responsive img-circle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials div end here -->
+
+    <!--  What we offer div start here-->
+    <p style="margin: 0 0 0px !important;text-align: center; font-size: 35px; font-family: 'Slabo 27px';">What We Do</p>
+    <p style="text-align: center; font-size: 15px; font-family: 'Slabo 27px';font-style: italic">Listed below four reasons to choose us!</p>
+    <div id="what_we_do" class="row">
+        <div class="col-sm-3 col-xs-6">
+            <div id="f1_container" >
+                <div id="f1_card" class="shadow">
+                    <div class="front face">
+                        <img src="{% static 'images/main_page/Customized-Solutions.png' %}" class="img-responsive"/>
+                    </div>
+                    <div class="back face center offer-description">
+                        <p>Greenesto concentrate on
+                            innovations to deliver the most
+                            cost effective and high efficiency
+                            customized solutions to all its
+                            customers, be it small or large.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-topic">
+                <p>Customized Solution</p>
+            </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <div id="f1_container" >
+                <div id="f1_card" class="shadow">
+                    <div class="front face">
+                        <img src="{% static 'images/main_page/Affordable-Reliable.png' %}" class="img-responsive"/>
+                    </div>
+                    <div class="back face center offer-description">
+                        <p>Greenesto promotes green/
+                            sustainability and continue to play a
+                            environment for generations ahead.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-topic">
+                <p>Sustainability</p>
+            </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <div id="f1_container" >
+                <div id="f1_card" class="shadow">
+                    <div class="front face">
+                        <img src="{% static 'images/main_page/Innovation.png' %}" class="img-responsive"/>
+                    </div>
+                    <div class="back face center offer-description">
+                        <p>Renewable Energy is more cost
+                            effective for all users, and
+                            eventually free. we provide best tool
+                            on which user can rely.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-topic">
+                <p>Affordable & Reliable</p>
+            </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <div id="f1_container" >
+                <div id="f1_card" class="shadow">
+                    <div class="front face">
+                        <img src="{% static 'images/main_page/Sustainability.png' %}" class="img-responsive"/>
+                    </div>
+                    <div class="back face center offer-description">
+                        <p>Greenesto have wide range of
+                            products and we continuously
+                            upgrade our processes and inputs
+                            to stay ahead.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-topic">
+                <p>Innovation</p>
+            </div>
+        </div>
+    </div>
+    <!--  What we offer div start here-->
+
+
+    <!-- Feedback form div start here -->
+
+    <div class="row row-content">
+        <p style="margin: 0 0 0px !important;padding-top:30px;text-align: center; font-size: 35px; font-family: 'Slabo 27px';">Connect with us</p>
+        <p style="text-align: center; font-size: 15px; font-family: 'Slabo 27px';font-style: italic">Give us your precious feedback</p>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 feedback-form">
+            <form>
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" class="form-control" placeholder="Enter name here">
+                </div>
+                <div class="form-group">
+                    <label>Your Email</label>
+                    <input type="text" class="form-control" placeholder="Enter email here">
+                </div>
+                <div class="form-group">
+                    <label>Your Mobile no.</label>
+                    <input type="text" class="form-control" placeholder="Enter mobile no. here">
+                </div>
+                <div class="form-group">
+                    <label>Your Comment</label>
+                    <input type="text" class="form-control" style="height: 200px !important;" placeholder="Enter comment here">
+                </div>
+                <input type="submit" class="btn btn-default">
+            </form>
+        </div>
+        <div class="col-sm-5 feedback-image">
+            <img class="img-responsive" src="{% static 'images/main_page/feedback_globe.png' %}">
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <!-- Feedback form div start here -->
+</div>
+{% include 'footer.html' %}

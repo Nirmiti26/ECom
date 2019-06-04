@@ -1,0 +1,15 @@
+Django==1.9.2
+MySQL-python==1.2.5
+Pillow==3.1.1
+argparse==1.2.1
+django-bootstrap3==6.2.2
+django-ckeditor==5.0.3
+django-dual-authentication==1.0.0
+django-mathfield==0.1.0
+django-mathjax==0.0.5
+django-nose==1.4.3
+django-registration-redux==1.3
+nose==1.3.7
+wheel==0.29.0
+wsgiref==0.1.2
+xlrd==0.9.4

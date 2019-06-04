@@ -1,0 +1,378 @@
+[
+  {
+    "model": "solar.manufacturer",
+    "pk": 1,
+    "fields": {
+      "name": "Navitas",
+      "info": "Navitas Solar is the manufacturer of the state-of-the-art mono/multi crystalline solar photovoltaic (PV) modules which supply sustainable solar electric power to both on-grid and off-grid residential, commercial as well as industrial establishments."
+    }
+  },
+  {
+    "model": "solar.manufacturer",
+    "pk": 2,
+    "fields": {
+      "name": "Waaree",
+      "info": "Waaree Solar is the manufacturer of the state-of-the-art mono/multi crystalline solar photovoltaic (PV) modules which supply sustainable solar electric power to both on-grid and off-grid residential, commercial as well as industrial establishments."
+    }
+  },
+  {
+    "model": "solar.manufacturer",
+    "pk": 3,
+    "fields": {
+      "name": "Asterix",
+      "info": "We are into Solar Power plants, Solar water heaters, Industrial Boilers for Bosch in Tamil Nadu. We Cater to Industrial, Commercial & Domestic Segments. We deal with LED’s manufactured by lighting science & Arka for various applications like Indoor, Outdoor & street lighting applications."
+    }
+  },
+  {
+    "model": "solar.manufacturer",
+    "pk": 4,
+    "fields": {
+      "name": "PV Powertech",
+      "info": "PowerTech Solar is the manufacturer of the state-of-the-art mono/multi crystalline solar photovoltaic (PV) modules which supply sustainable solar electric power to both on-grid and off-grid residential, commercial as well as industrial establishments."
+    }
+  },
+  {
+    "model": "solar.manufacturer",
+    "pk": 5,
+    "fields": {
+      "name": "Zenom",
+      "info": "Zenom Solar is the manufacturer of the state-of-the-art mono/multi crystalline solar photovoltaic (PV) modules which supply sustainable solar electric power to both on-grid and off-grid residential, commercial as well as industrial establishments."
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Mini Solar Panel",
+      "product_price": "300.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Mini Solar Panel",
+      "product_price": "300.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Mini Solar Panel345DC",
+      "product_price": "300.343",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Mini Solar PanelFFFD",
+      "product_price": "334.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "Mini Solar Panel TY34",
+      "product_price": "309.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 5,
+    "fields": {
+      "product_name": "Solar Panel TGY",
+      "product_price": "3000.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 6,
+    "fields": {
+      "product_name": "Solar Panel 1st grade",
+      "product_price": "3334.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 7,
+    "fields": {
+      "product_name": "Inverter",
+      "product_price": "200.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 1
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 8,
+    "fields": {
+      "product_name": "Mini Solar Panel 112",
+      "product_price": "306.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 2
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 9,
+    "fields": {
+      "product_name": "Mini Solar Panel DFR",
+      "product_price": "303.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 2
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 10,
+    "fields": {
+      "product_name": "Mini Solar Panel YYYT",
+      "product_price": "301.00",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 2
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 11,
+    "fields": {
+      "product_name": "Mini Solar Panel FGRD",
+      "product_price": "312.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 2
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 12,
+    "fields": {
+      "product_name": "Wires",
+      "product_price": "30.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 3
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 13,
+    "fields": {
+      "product_name": "Wires double",
+      "product_price": "30.00",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 3
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 14,
+    "fields": {
+      "product_name": "Inverter",
+      "product_price": "400.12",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 3
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 15,
+    "fields": {
+      "product_name": "Mini Solar Panel",
+      "product_price": "300.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 4
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 16,
+    "fields": {
+      "product_name": "Mini Solar Panel WARE",
+      "product_price": "310.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 4
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 17,
+    "fields": {
+      "product_name": "Solar Panel DFRDD",
+      "product_price": "3006.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 4
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 18,
+    "fields": {
+      "product_name": "Mini Solar Panel",
+      "product_price": "400.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 5
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 19,
+    "fields": {
+      "product_name": "Solar Panel RT",
+      "product_price": "4300.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 5
+    }
+  },
+  {
+    "model": "solar.product",
+    "pk": 20,
+    "fields": {
+      "product_name": "Inverter",
+      "product_price": "500.34",
+      "product_image": "image1.jpg",
+      "product_manufacturer": 5
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "property_name": "Height",
+      "property_description": "400cm"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "property_name": "Width",
+      "property_description": "300cm"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 3,
+    "fields": {
+      "product": 1,
+      "property_name": "Weight",
+      "property_description": "10kg"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 4,
+    "fields": {
+      "product": 1,
+      "property_name": "Warranty",
+      "property_description": "1 year"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 5,
+    "fields": {
+      "product": 2,
+      "property_name": "Height",
+      "property_description": "100cm"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 6,
+    "fields": {
+      "product": 2,
+      "property_name": "Color",
+      "property_description": "Blue"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 7,
+    "fields": {
+      "product": 2,
+      "property_name": "Weight",
+      "property_description": "12kg"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 8,
+    "fields": {
+      "product": 3,
+      "property_name": "Color",
+      "property_description": "gray"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 9,
+    "fields": {
+      "product": 3,
+      "property_name": "Battery backup",
+      "property_description": "5hr"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 10,
+    "fields": {
+      "product": 4,
+      "property_name": "Height",
+      "property_description": "400cm"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 11,
+    "fields": {
+      "product": 5,
+      "property_name": "replaceble",
+      "property_description": "Yes"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 12,
+    "fields": {
+      "product": 6,
+      "property_name": "Height",
+      "property_description": "200cm"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 13,
+    "fields": {
+      "product": 7,
+      "property_name": "Model",
+      "property_description": "AerFF201"
+    }
+  },
+  {
+    "model": "solar.productspecification",
+    "pk": 14,
+    "fields": {
+      "product": 8,
+      "property_name": "Number of batteries",
+      "property_description": "4"
+    }
+  }
+]
