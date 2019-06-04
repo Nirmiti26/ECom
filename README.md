@@ -1,4 +1,4 @@
-<img src="/static/images/greenesto_logo.png" height="100px" width="350px">
+<!-- <img src="/static/images/greenesto_logo.png" height="100px" width="350px"> -->
 <h3>Which technologies we are using</h3>
 1. python 2.7
 2. mySQL
