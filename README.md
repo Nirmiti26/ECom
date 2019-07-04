@@ -22,7 +22,6 @@
     -- now we will install our dependecies, NOTE: dont use sudo now
     <li>`pip install django`</li>
     -- now clone our project to your working directory
-    <li>`git clone https://github.com/vipin14119/greenesto.git`</li>
     -- You are done now setting up the project --
     </ul>
   </li>
